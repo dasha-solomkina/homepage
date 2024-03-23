@@ -11,7 +11,6 @@
   align-items: center;
   padding: 50px 200px;
   background-color: #257195;
-  /* box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5); */
 }
 
 .design {
@@ -178,12 +177,156 @@ h3 {
 .socialFooter img:hover {
   cursor: pointer;
 }
-/* 
+
 @media (max-width: 1000px) {
+  .header {
+    padding: 20px 30px;
+  }
+  * {
+    font-size: 16px;
+  }
 
+  h1 {
+    font-size: 1.8em;
+  }
+  .about {
+    padding: 20px 30px;
+    gap: 10px;
+    height: 300px;
+    width: 50%;
+  }
+  .design {
+    height: 200px;
+    margin-bottom: -200px;
+  }
 
-} */
+  .projects h2 {
+    padding-left: 50px;
+    padding-top: 30px;
+  }
+  .cards {
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    padding: 50px 60px;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
 
-/* @media (max-width: 600px) {
-    
-} */
+  .footer {
+    padding: 40px 60px;
+  }
+  .footer picture {
+    width: 60%;
+    box-shadow: none;
+  }
+  .info {
+    gap: 20px;
+  }
+  .info p {
+    font-size: 1em;
+  }
+  .phone:before,
+  .email:before {
+    width: 15px;
+    height: 15px;
+  }
+  .socialFooter img {
+    width: 30px;
+  }
+  .info h2 {
+    font-size: 1.6em;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 10px 15px;
+    flex-direction: column;
+  }
+
+  .profile {
+    max-width: 70%;
+    transform: translate(0, 0);
+    margin-top: 20px;
+  }
+
+  * {
+    font-size: 12px;
+  }
+
+  .socialImg {
+    width: 15px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  .about {
+    padding: 0 30px;
+    gap: 10px;
+    height: 250px;
+    width: 50%;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .design {
+    display: none;
+  }
+
+  .projects h2 {
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 3em;
+  }
+
+  .cards {
+    grid-template: repeat(6, 1fr) / 1fr;
+    padding: 20px 60px;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+
+  .footer {
+    padding: 40px 60px;
+    flex-direction: column;
+  }
+
+  .footer picture {
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .info {
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .info p {
+    font-size: 1em;
+  }
+
+  .phone:before,
+  .email:before {
+    width: 15px;
+    height: 15px;
+  }
+
+  .socialFooter img {
+    width: 20px;
+  }
+
+  .socialFooter {
+    gap: 15px;
+  }
+
+  .info h2 {
+    font-size: 1.6em;
+  }
+}
